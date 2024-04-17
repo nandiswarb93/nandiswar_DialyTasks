@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        body{
+          height: 100vh;
+          position: relative;
+          border: 2px solid black;
+     
+       }
+       
+        .circle1{
+
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            animation-name: nandi1;
+            margin-left: 20px;
+
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            border-radius: 100%;
+            animation-direction: alternate;
+            bottom: 20px;
+            
+          }
+
+          @keyframes nandi1 {
+            0%   {background-color:red; bottom:0px;}
+            25%  {background-color:yellow;  bottom:50px;}
+            50%  {background-color:blue; bottom:100px;}
+            75%  {background-color:green;  bottom:150px;}
+            100% {background-color:red;  bottom:200px;}
+          }
+          .circle2{
+
+            width: 100px;
+            height: 100px;
+            background-color: chocolate;
+            position: absolute;
+            animation-name: nandi2;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            border-radius: 100%;
+            animation-direction: alternate;
+          
+            margin-left: 150px;
+           
+            
+          }
+
+          @keyframes nandi2 {
+            0%   {background-color:red; top:50px;}
+            25%  {background-color:yellow;  top:100px;}
+            50%  {background-color:blue; top:200px;}
+            75%  {background-color:green;  top:300px;}
+            100% {background-color:red;  top:400px;}
+          }
+          .circle3{
+
+            width: 100px;
+            height: 100px;
+            background-color:blue;
+            position: absolute;
+          
+            animation-name: nandi3;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            border-radius: 100%;
+               margin-left: 270px;
+            animation-direction: alternate;
+            bottom: 20px;
+            
+          }
+          @keyframes nandi3 {
+            0%   {background-color:red; bottom:0px;}
+            25%  {background-color:yellow;  bottom:50px;}
+            50%  {background-color:blue; bottom:100px;}
+            75%  {background-color:green;  bottom:150px;}
+            100% {background-color:red;  bottom:200px;}
+          }
+          .circle4{
+
+            width: 100px;
+            height: 100px;
+            background-color:yellow;
+            position: absolute;
+          
+            animation-name: nandi4;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            border-radius: 100%;
+            margin-left: 350px;
+            animation-direction: alternate;
+          
+            
+          }
+          
+          @keyframes nandi4 {
+            0%   {background-color:red; top:0px;}
+            25%  {background-color:yellow;  top:50px;}
+            50%  {background-color:blue; top:100px;}
+            75%  {background-color:green;  top:150px;}
+            100% {background-color:red;  top:200px;}
+          }
+          
+    </style>
+</head>
+<body>
+    
+   <div> 
+    
+    <div class="circle1"></div>
+   <div class="circle2"></div>
+   <div class="circle3"></div>
+   <div class="circle4"></div>
+
+</div>
+</body>
+</html>
