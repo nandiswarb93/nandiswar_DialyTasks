@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .abc {
+        position: relative;
+        right: 50px;
+        margin-left: 150px;
+      }
+      .abc img {
+        height: "700px";
+        width: "900px";
+      }
+      body {
+        margin-left: 150px;
+        margin-right: 50px;
+      }
+
+      .row {
+        display: flex;
+        background-color: whitesmoke;
+        margin-left: 101px;
+      }
+      .column {
+        flex: 25%;
+        padding-left: 30px;
+        justify-content: center;
+        column-gap: 100px;
+      }
+      .box {
+        width: 1200px;
+        height: 300px;
+        background-color: black;
+        margin-left: 105px;
+        color: whitesmoke;
+        padding: 10px;
+      }
+      input {
+        width: 100%;
+        height: 40px;
+      }
+      button {
+        background-color: red;
+        color: whitesmoke;
+        height: 40px;
+        width: 90px;
+      }
+      .space {
+        padding: 15px;
+      }
+      .row button {
+        background-color: black;
+        color: white;
+      }
+      .column input {
+        padding: 10px;
+        width: 400px;
+        height: 30px;
+      }
+      .col3 {
+        padding-top: 30px;
+      }
+      footer {
+        width: 1200px;
+        height: 100px;
+        background-color: black;
+        margin-left: 105px;
+        color: whitesmoke;
+        padding: 10px;
+        align-content: center;
+
+        text-align: center;
+      }
+      nav {
+        height: 50px;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        padding-right: 101px;
+        right: 200px;
+      }
+      body {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="">Jeans</a>
+      <a href="">shopping</a>
+      <a href="">search</a>
+    </nav>
+
+    <div class="abc">
+      <img src="./21.jpg" alt="" />
+    </div>
+
+    <div class="row">
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./22.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Ripped Skinny Jeans <br />
+              $24.99
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./23.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Mega Ripped Jeans <br />
+              $19.99
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./24.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>Washed Skinny Jeans $20.50</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./25.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>OVintage Skinny Jeans <br />$14.99</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./26.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Mega Ripped Jeans <br />
+              $19.99
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./27.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Washed Skinny Jeans <br />
+              $20.50
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./28.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Vintage Skinny Jeans <br />
+              $14.99
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="column" style="row-gap: 100px">
+        <figure>
+          <img src="./29.jpg" alt="" width="200px" height="200px" />
+          <figcaption>
+            <p>
+              Ripped Skinny Jeans <br />
+              $24.99
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="box">
+      <h1>Subscribe</h1>
+      <p>To get special offers and VIP treatment:</p>
+      <input type="email" name="email" placeholder="enter a email" />
+      <div class="space"></div>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <p>contact</p>
+        <p>Questions? Go ahead.</p>
+        <input type="email" placeholder="email" />
+        <input type="text" placeholder="name" />
+        <input type="text" placeholder="subject" />
+        <input type="text" placeholder="message" /><br />
+
+        <button>send</button>
+      </div>
+      <div class="col3">
+        <div class="column">
+          <a href="">About us</a><br />
+          <a href="">we are hiring</a><br />
+          <a href=""> support</a><br />
+          <a href="">find store</a><br />
+          <a href="">shipment</a><br />
+          <a href="">payment</a><br />
+          <a href="">gift card</a><br />
+          <a href="">return</a><br />
+          <a href="">help</a><br />
+        </div>
+      </div>
+      <div class="column">
+        <div class="col3">
+          <a href="">store</a><br />
+          <a href="">0987654321</a><br />
+          <a href="">ex@email.com</a><br />
+          <h2>we accept</h2>
+          <a href="">amex</a><br />
+          <a href="">credit card</a><br />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        powered by
+        <a
+          href="https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm"
+          >css</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
